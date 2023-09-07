@@ -1,4 +1,14 @@
 
+/* App.css */
+/* 폰트 스타일링 */
+body {
+  font-family: 'Noto Sans KR', sans-serif; /* 둥글둥글한 폰트로 변경 */
+}
+
+/* "재미로 보는 피부나이 테스트!" 텍스트 스타일링 */
+.App-header p span {
+  font-family: 'Noto Sans KR', sans-serif; /* 둥글둥글한 폰트로 변경 */
+}
 
 .App {
   text-align: center;
@@ -21,7 +31,7 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +42,8 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #bababa;
+  font-size: 15px;
 }
 
 @keyframes App-logo-spin {
@@ -43,4 +54,3 @@
     transform: rotate(1080deg);
   }
 }
-
